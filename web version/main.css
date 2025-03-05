@@ -1,4 +1,99 @@
-*{
-    background-color: black;
+body{
+    display: flex;
+    flex-direction: column;
 }
 
+
+header h1{
+    color: white;
+    background: none;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "left-item right-top" "left-item right-bottom";
+    justify-items: center;
+    
+}
+
+
+.logo{
+    background-color: blue;
+
+}
+
+.nav_list {
+    grid-area: right-bottom;
+    display: flex;
+    justify-content: space-evenly;
+    background: blue;
+}
+
+.nav_list a{
+    color: white;
+    text-decoration: none;
+    background: blue;
+}
+
+.nav_list ul{
+    list-style-type: none;
+    background: blue;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.cash {
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+footer{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    align-items: center;
+
+}
+
+footer h1{
+    color: white;
+    background: none;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.cash h2{
+    color: white;
+    background: none;
+}
+
+main{
+    background-color: green;
+}
