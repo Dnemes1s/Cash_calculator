@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="test.css"> 
     <link rel="stylesheet" href="/web version/main.css">
     <!-- test style sheet -->
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 <body>
     <header>
@@ -28,23 +32,28 @@
             <div class ="cash">
                 <img src="image.png" alt="cash">
                 <h2 style="color: aliceblue;">Enter the amount of cash</h2>
-                <input type="number" id="cash" placeholder="Enter the amount of cash">
+                <input type="number" id="100" placeholder="Enter the amount of cash">
             </div>
             <div class ="cash">
                 <img src="image.png" alt="cash">
                 <h2 style="color: aliceblue;">Enter the amount of cash</h2>
-                <input type="number" id="cash" placeholder="Enter the amount of cash">
+                <input type="number" id="50" placeholder="Enter the amount of cash">
             </div>
             <div class ="cash">
                 <img src="image.png" alt="cash">
                 <h2 style="color: aliceblue;">Enter the amount of cash</h2>
-                <input type="number" id="cash" placeholder="Enter the amount of cash">
+                <input type="number" id="20" placeholder="Enter the amount of cash">
             </div>
             <div class ="cash">
                 <img src="image.png" alt="cash">
                 <h2 style="color: aliceblue;">Enter the amount of cash</h2>
-                <input type="number" id="cash" placeholder="Enter the amount of cash">
+                <input type="number" id="10" placeholder="Enter the amount of cash">
             </div>
+            <div class="total">
+                <button id="Calculate">Calculate</button>
+                <h2 id="calculation">Total amount of cash: .....</h2>
+            </div>
+            
         </div>
         
     </main>

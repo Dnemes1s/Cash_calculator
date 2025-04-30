@@ -1,14 +1,4 @@
-one_hundred = 0
-fifty = 0
-twenty = 0
-ten = 0
-five = 0
-two = 0
-one = 0
-twenty_cent = 0
-ten_cent = 0
-five_cent = 0
-
+# This program calculates the total amount of money in a till based on user input for various denominations.
 print("Enter the amount of money in the till starting with $100 bills and ending with 5 cent coins")
 
 one_hundred = int(input("Enter the number of $100 bills: "))
