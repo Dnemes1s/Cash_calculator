@@ -23,11 +23,6 @@ header{
 }
 
 
-.logo{
-    background-color: blue;
-
-}
-
 .nav_list {
     grid-area: right-bottom;
     display: flex;
