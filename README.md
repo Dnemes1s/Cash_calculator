@@ -6,3 +6,5 @@ Need to make use of
   - JavaScript
 
 Plan to make a few different calculators for different countries. Will just start with Australia
+
+As of 2/5/25 the website functions and can do calculation. Just need to make it not look like vomit. 
